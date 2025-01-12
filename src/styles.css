@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #1f1f1f 0%, #000000 100%);
+}
+
+header{
+    background-color: black;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    height: 100px;
+    box-shadow: 2px 0 solid black;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border: 0;
+    font-weight: 600;
+    font-size: 1em;
+}
+ /* probably should change and add a active tag aswell*/
+button:hover{
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+}
+
+#home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 180px
+}
+
+#home-image{
+    width: 700px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 50px solid black;
+}
+
+.restaurant-name, .restaurant-desc{
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+.restaurant-name{
+    font-weight: 800;
+    font-size: 7rem;
+}
+
+.restaurant-desc{
+    padding: 15px;
+    padding-left: 0;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
